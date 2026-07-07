@@ -30,7 +30,7 @@ This project implements the fundamental digital logic gates using Verilog HDL. T
 
 - `design.v.text` – Verilog module implementing the basic logic gates.
 - `testbench.v.txt` – Testbench for simulating all input combinations.
-- `waveform output.png` – Simulation waveform of the logic gates.
+- `waveform.png` – Simulation waveform of the logic gates.
 
 
 ---
