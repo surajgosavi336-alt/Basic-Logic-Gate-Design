@@ -52,12 +52,11 @@ The simulation successfully verified the functionality of all six logic gates. E
 
 ---
 
-## Waveform
+## Waveforms
 
+### Logic Gate Waveform
 
-### logic gates Waveform
-
-![Logic gates Waveform](waveform output%20wave.png)
+![Logic Gate Waveform](waveform%20output.png)
 
 
 
