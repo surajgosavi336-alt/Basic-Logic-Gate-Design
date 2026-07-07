@@ -1,62 +1,41 @@
-# Basic Logic Gate Design using Verilog HDL
+# CODETECH_TASK1
 
-## 📌 Project Overview
+## Basic Logic Gate Design using Verilog HDL
 
-This project implements the basic digital logic gates using Verilog HDL and verifies their functionality through simulation on EDA Playground.
+### Project Overview
 
-The implemented logic gates are:
-
-- AND Gate
-- OR Gate
-- NOT Gate
-- XOR Gate
-- NAND Gate
-- NOR Gate
+This project implements the fundamental digital logic gates using Verilog HDL. The implemented logic gates include AND, OR, NOT, XOR, NAND, and NOR gates. These gates form the building blocks of digital circuits and are widely used in VLSI design. The design was simulated and verified using EDA Playground and EPWave.
 
 ---
 
-## 🎯 Objective
+## Objectives
 
-The objective of this project is to understand the fundamentals of digital logic design by implementing basic logic gates using Verilog HDL and verifying their outputs through simulation.
+- Design basic logic gates using Verilog HDL.
+- Implement AND, OR, NOT, XOR, NAND, and NOR gates.
+- Verify the functionality through simulation and waveform analysis.
+- Understand the fundamentals of combinational logic design used in VLSI systems.
 
 ---
 
-## 🛠️ Software Used
+## Tools Used
 
 - Verilog HDL
 - EDA Playground
-- Icarus Verilog Simulator
-- EPWave (Waveform Viewer)
+- EPWave
+- GitHub
 
 ---
 
-## 📂 Project Structure
+## Project Files
 
-```
-Basic-Logic-Gate-Design/
-│── design.v
-│── testbench.v
-│── waveform.png
-│── output.png
-│── README.md
-```
+- `design.v.text` – Verilog module implementing the basic logic gates.
+- `testbench.v.txt` – Testbench for simulating all input combinations.
+- `waveform output.png` – Simulation waveform of the logic gates.
+
 
 ---
 
-## 📖 Logic Gates Implemented
-
-| Logic Gate | Operation |
-|------------|-----------|
-| AND | A & B |
-| OR | A \| B |
-| NOT | ~A |
-| XOR | A ^ B |
-| NAND | ~(A & B) |
-| NOR | ~(A \| B) |
-
----
-
-## 🧪 Test Cases
+## Logic Gate Truth Table
 
 | A | B | AND | OR | NOT(A) | XOR | NAND | NOR |
 |---|---|-----|----|--------|-----|------|-----|
@@ -67,39 +46,20 @@ Basic-Logic-Gate-Design/
 
 ---
 
-## ▶️ Simulation
+## Simulation Results
 
-The design was simulated using **Icarus Verilog** on **EDA Playground**.
-
-The testbench verifies all possible input combinations and generates a waveform for verification.
+The simulation successfully verified the functionality of all six logic gates. Each input combination produced the expected output according to the corresponding truth table. The waveform generated in EPWave confirmed the correct logical behavior of the implemented gates throughout the simulation.
 
 ---
 
-## 📊 Output
+## Waveform
 
-(Add your simulation output screenshot here)
+Upload your waveform image as **waveform output.png** and add:
 
-Example:
-
-```
-A B | AND OR NOT XOR NAND NOR
-
-0 0 | 0   0   1   0    1    1
-0 1 | 0   1   1   1    1    0
-1 0 | 0   1   0   1    1    0
-1 1 | 1   1   0   0    0    0
+```markdown
+![Logic Gate Waveform](waveform output.png)
 ```
 
----
+## Conclusion
 
-## 📈 Waveform
-
-(Add your EPWave screenshot here)
-
-Example file:
-
-```
-waveform.png
-```
-
----
+This project demonstrates the design and simulation of the fundamental digital logic gates using Verilog HDL. The AND, OR, NOT, XOR, NAND, and NOR gates were successfully implemented and verified through simulation using EDA Playground and waveform analysis using EPWave. The project provides a strong foundation in combinational logic design and Verilog programming, which are essential concepts in VLSI design and digital system development.
