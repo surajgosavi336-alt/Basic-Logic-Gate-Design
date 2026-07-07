@@ -54,11 +54,12 @@ The simulation successfully verified the functionality of all six logic gates. E
 
 ## Waveform
 
-Upload your waveform image as **waveform output.png** and add:
 
-```markdown
-![Logic Gate Waveform](waveform output.png)
-```
+### logic gates Waveform
+
+![Logic gates Waveform](waveform output%20wave.png)
+
+
 
 ## Conclusion
 
